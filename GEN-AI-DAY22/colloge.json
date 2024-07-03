@@ -1,0 +1,553 @@
+﻿[
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Dean",
+        "name": "Dr. Smith",
+        "id": 1
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Department"
+      ],
+      "properties": {
+        "name": "Computer Science",
+        "id": 1
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Department"
+      ],
+      "properties": {
+        "name": "Mechanical Engineering",
+        "id": 2
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Department"
+      ],
+      "properties": {
+        "name": "Civil Engineering",
+        "id": 3
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Department"
+      ],
+      "properties": {
+        "name": "Electrical Engineering",
+        "id": 4
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Department"
+      ],
+      "properties": {
+        "name": "Chemical Engineering",
+        "id": 5
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Year"
+      ],
+      "properties": {
+        "name": "First Year",
+        "id": 1
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Year"
+      ],
+      "properties": {
+        "name": "Second Year",
+        "id": 2
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Year"
+      ],
+      "properties": {
+        "name": "Third Year",
+        "id": 3
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Year"
+      ],
+      "properties": {
+        "name": "Fourth Year",
+        "id": 4
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "HOD",
+        "name": "Dr. Johnson",
+        "id": 2
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "HOD",
+        "name": "Dr. Brown",
+        "id": 3
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "HOD",
+        "name": "Dr. Taylor",
+        "id": 4
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "HOD",
+        "name": "Dr. Wilson",
+        "id": 5
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "HOD",
+        "name": "Dr. Moore",
+        "id": 6
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Teacher",
+        "name": "Teacher 1",
+        "id": 7
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Teacher",
+        "name": "Teacher 2",
+        "id": 8
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Teacher",
+        "name": "Teacher 3",
+        "id": 9
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Teacher",
+        "name": "Teacher 4",
+        "id": 10
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Teacher",
+        "name": "Teacher 5",
+        "id": 11
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Computer Science - First Year",
+        "id": 101
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Computer Science - Second Year",
+        "id": 102
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:29"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Computer Science - Third Year",
+        "id": 103
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:30"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Computer Science - Fourth Year",
+        "id": 104
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:31"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Mechanical Engineering - First Year",
+        "id": 201
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:32"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Mechanical Engineering - Second Year",
+        "id": 202
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:33"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Mechanical Engineering - Third Year",
+        "id": 203
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Mechanical Engineering - Fourth Year",
+        "id": 204
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:35"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Civil Engineering - First Year",
+        "id": 301
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:36"
+    }
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Civil Engineering - Second Year",
+        "id": 302
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:37"
+    }
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Civil Engineering - Third Year",
+        "id": 303
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:38"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Civil Engineering - Fourth Year",
+        "id": 304
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:39"
+    }
+  },
+  {
+    "n": {
+      "identity": 40,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Electrical Engineering - First Year",
+        "id": 401
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:40"
+    }
+  },
+  {
+    "n": {
+      "identity": 41,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Electrical Engineering - Second Year",
+        "id": 402
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:41"
+    }
+  },
+  {
+    "n": {
+      "identity": 42,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Electrical Engineering - Third Year",
+        "id": 403
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:42"
+    }
+  },
+  {
+    "n": {
+      "identity": 43,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Electrical Engineering - Fourth Year",
+        "id": 404
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:43"
+    }
+  },
+  {
+    "n": {
+      "identity": 44,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Chemical Engineering - First Year",
+        "id": 501
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:44"
+    }
+  },
+  {
+    "n": {
+      "identity": 45,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Chemical Engineering - Second Year",
+        "id": 502
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:45"
+    }
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Chemical Engineering - Third Year",
+        "id": 503
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:46"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "role": "Student",
+        "name": "Student Chemical Engineering - Fourth Year",
+        "id": 504
+      },
+      "elementId": "4:418d36fa-f9da-4060-9444-2a56b0422c63:47"
+    }
+  }
+]

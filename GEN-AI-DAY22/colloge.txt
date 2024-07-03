@@ -1,0 +1,62 @@
+// Create Dean
+CREATE (Dean:Person {id: 1, name: 'Dr. Smith', role: 'Dean'})
+
+// Create Departments
+CREATE (Department1:Department {id: 1, name: 'Computer Science'})
+CREATE (Department2:Department {id: 2, name: 'Mechanical Engineering'})
+CREATE (Department3:Department {id: 3, name: 'Civil Engineering'})
+CREATE (Department4:Department {id: 4, name: 'Electrical Engineering'})
+CREATE (Department5:Department {id: 5, name: 'Chemical Engineering'})
+
+// Create Years
+CREATE (Year1:Year {id: 1, name: 'First Year'})
+CREATE (Year2:Year {id: 2, name: 'Second Year'})
+CREATE (Year3:Year {id: 3, name: 'Third Year'})
+CREATE (Year4:Year {id: 4, name: 'Fourth Year'})
+
+// Create HODs and associate with departments
+CREATE (HOD1:Person {id: 2, name: 'Dr. Johnson', role: 'HOD'})-[:HEADS]->(Department1)
+CREATE (HOD2:Person {id: 3, name: 'Dr. Brown', role: 'HOD'})-[:HEADS]->(Department2)
+CREATE (HOD3:Person {id: 4, name: 'Dr. Taylor', role: 'HOD'})-[:HEADS]->(Department3)
+CREATE (HOD4:Person {id: 5, name: 'Dr. Wilson', role: 'HOD'})-[:HEADS]->(Department4)
+CREATE (HOD5:Person {id: 6, name: 'Dr. Moore', role: 'HOD'})-[:HEADS]->(Department5)
+
+// Dean oversees all departments
+CREATE (Dean)-[:OVERSEES]->(Department1)
+CREATE (Dean)-[:OVERSEES]->(Department2)
+CREATE (Dean)-[:OVERSEES]->(Department3)
+CREATE (Dean)-[:OVERSEES]->(Department4)
+CREATE (Dean)-[:OVERSEES]->(Department5)
+
+// Create Teachers and associate with departments
+CREATE (Teacher1:Person {id: 7, name: 'Teacher 1', role: 'Teacher'})-[:TEACHES_IN]->(Department1)
+CREATE (Teacher2:Person {id: 8, name: 'Teacher 2', role: 'Teacher'})-[:TEACHES_IN]->(Department2)
+CREATE (Teacher3:Person {id: 9, name: 'Teacher 3', role: 'Teacher'})-[:TEACHES_IN]->(Department3)
+CREATE (Teacher4:Person {id: 10, name: 'Teacher 4', role: 'Teacher'})-[:TEACHES_IN]->(Department4)
+CREATE (Teacher5:Person {id: 11, name: 'Teacher 5', role: 'Teacher'})-[:TEACHES_IN]->(Department5)
+
+// Create Students and associate with departments and years
+CREATE (:Person {id: 101, name: 'Student Computer Science - First Year', role: 'Student'})-[:STUDIES_IN]->(Department1)-[:IN_YEAR]->(Year1)
+CREATE (:Person {id: 102, name: 'Student Computer Science - Second Year', role: 'Student'})-[:STUDIES_IN]->(Department1)-[:IN_YEAR]->(Year2)
+CREATE (:Person {id: 103, name: 'Student Computer Science - Third Year', role: 'Student'})-[:STUDIES_IN]->(Department1)-[:IN_YEAR]->(Year3)
+CREATE (:Person {id: 104, name: 'Student Computer Science - Fourth Year', role: 'Student'})-[:STUDIES_IN]->(Department1)-[:IN_YEAR]->(Year4)
+
+CREATE (:Person {id: 201, name: 'Student Mechanical Engineering - First Year', role: 'Student'})-[:STUDIES_IN]->(Department2)-[:IN_YEAR]->(Year1)
+CREATE (:Person {id: 202, name: 'Student Mechanical Engineering - Second Year', role: 'Student'})-[:STUDIES_IN]->(Department2)-[:IN_YEAR]->(Year2)
+CREATE (:Person {id: 203, name: 'Student Mechanical Engineering - Third Year', role: 'Student'})-[:STUDIES_IN]->(Department2)-[:IN_YEAR]->(Year3)
+CREATE (:Person {id: 204, name: 'Student Mechanical Engineering - Fourth Year', role: 'Student'})-[:STUDIES_IN]->(Department2)-[:IN_YEAR]->(Year4)
+
+CREATE (:Person {id: 301, name: 'Student Civil Engineering - First Year', role: 'Student'})-[:STUDIES_IN]->(Department3)-[:IN_YEAR]->(Year1)
+CREATE (:Person {id: 302, name: 'Student Civil Engineering - Second Year', role: 'Student'})-[:STUDIES_IN]->(Department3)-[:IN_YEAR]->(Year2)
+CREATE (:Person {id: 303, name: 'Student Civil Engineering - Third Year', role: 'Student'})-[:STUDIES_IN]->(Department3)-[:IN_YEAR]->(Year3)
+CREATE (:Person {id: 304, name: 'Student Civil Engineering - Fourth Year', role: 'Student'})-[:STUDIES_IN]->(Department3)-[:IN_YEAR]->(Year4)
+
+CREATE (:Person {id: 401, name: 'Student Electrical Engineering - First Year', role: 'Student'})-[:STUDIES_IN]->(Department4)-[:IN_YEAR]->(Year1)
+CREATE (:Person {id: 402, name: 'Student Electrical Engineering - Second Year', role: 'Student'})-[:STUDIES_IN]->(Department4)-[:IN_YEAR]->(Year2)
+CREATE (:Person {id: 403, name: 'Student Electrical Engineering - Third Year', role: 'Student'})-[:STUDIES_IN]->(Department4)-[:IN_YEAR]->(Year3)
+CREATE (:Person {id: 404, name: 'Student Electrical Engineering - Fourth Year', role: 'Student'})-[:STUDIES_IN]->(Department4)-[:IN_YEAR]->(Year4)
+
+CREATE (:Person {id: 501, name: 'Student Chemical Engineering - First Year', role: 'Student'})-[:STUDIES_IN]->(Department5)-[:IN_YEAR]->(Year1)
+CREATE (:Person {id: 502, name: 'Student Chemical Engineering - Second Year', role: 'Student'})-[:STUDIES_IN]->(Department5)-[:IN_YEAR]->(Year2)
+CREATE (:Person {id: 503, name: 'Student Chemical Engineering - Third Year', role: 'Student'})-[:STUDIES_IN]->(Department5)-[:IN_YEAR]->(Year3)
+CREATE (:Person {id: 504, name: 'Student Chemical Engineering - Fourth Year', role: 'Student'})-[:STUDIES_IN]->(Department5)-[:IN_YEAR]->(Year4)
